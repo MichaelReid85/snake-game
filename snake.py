@@ -45,3 +45,11 @@ class Snake:
     def right(self):
         if self.head.heading() != LEFT:
             self.head.setheading(RIGHT)
+
+
+# class SnakeBody(Snake):
+#     def __init__(self):
+#         super().__init__()
+#
+#     def new_body(self):
+#         super().create_snake()
